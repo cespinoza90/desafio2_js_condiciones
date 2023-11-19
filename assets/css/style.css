@@ -1,0 +1,33 @@
+img{
+    border: none;
+    cursor: pointer;
+    margin: 5%;
+    height: 25rem;
+}
+
+img.clicked{
+    margin: 5%;
+    height: 25rem;
+    border: 2px solid red;
+}
+
+.tstk{
+    display: grid;
+    grid-template-areas: 
+    "auto auto auto"
+    "auto auto auto";
+}
+
+.stk{
+    margin: 5%;
+    height: 200px;
+    width: 160px;
+}
+
+.bcomp{
+    margin: 5%;
+}
+
+.list{
+    margin: 5%;
+}
